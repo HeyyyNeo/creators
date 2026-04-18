@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Best Birthday Party Place in Noida | Fat Tiger Sector 135",
+  title: "Best PhysioTherapist in Gurgaon",
   description:
-    "Looking for birthday party venues in Noida? Fat Tiger offers momos, burgers, boba & full party setups in Sector 135. Book now!",
+    "Expert physiotherapy in Sector 56, Gurgaon. Sports rehab, spine care, manual therapy — all personalised to you.",
 };
 
 export default function RootLayout({
