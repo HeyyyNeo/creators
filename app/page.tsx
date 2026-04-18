@@ -33,7 +33,7 @@ body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--white);color:va
   padding:1.1rem 3.5rem;
   transition:background .4s,backdrop-filter .4s;
 }
-.nav.stuck{background:rgba(255,254,251,.9);backdrop-filter:blur(20px);box-shadow:0 1px 0 rgba(0,0,0,.07);}
+.nav.stuck{padding-top: 1.4rem; background:rgba(255,254,251,.9);backdrop-filter:blur(20px);box-shadow:0 1px 0 rgba(0,0,0,.07);}
 .logo{font-family:'Instrument Serif',serif;font-size:1.4rem;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:.5rem;}
 .logo-dot{width:10px;height:10px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 2s ease-in-out infinite;}
 @keyframes pulse{0%,100%{transform:scale(1);}50%{transform:scale(1.4);}}
@@ -700,10 +700,10 @@ export default function PhysioPage() {
           </p>
         </div>
         <div className="cta-right">
-          <a href="tel:+919876543210" className="btn-white">
-            📞 Call +91 98765 43210
+          <a href="tel:+919315873877" className="btn-white">
+            📞 Call +91 9315873877
           </a>
-          <a href="https://wa.me/919876543210" className="btn-outline-w">
+          <a href="https://wa.me/919315873877" className="btn-outline-w">
             💬 WhatsApp Us
           </a>
         </div>
